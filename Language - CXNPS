@@ -1,0 +1,61 @@
+Qualtrics.SurveyEngine.addOnload(function()
+{
+	/*Place your JavaScript here to run when the page loads*/
+
+});
+
+Qualtrics.SurveyEngine.addOnReady(function()
+{
+	/*Place your JavaScript here to run when the page is fully displayed*/
+    jQuery("div[id='QID1']").after(jQuery("select[name='Q_lang']"));
+	jQuery("select[name='Q_lang']").css({
+		'border':'2px solid #d2d2d6',
+		'-webkit-border-radius' : '2px',
+		'-moz-border-radius' : '2px',
+		'-ms-border-radius' : '2px',
+		'-o-border-radius' : '2px',
+		'border-radius' : '0px',
+		'padding' : '5px',
+		'width' : '300px',
+		'text-align' : 'center',
+		'margin' : '25px'
+	});	
+	
+	jQuery("div[class='LanguageSelectorContainer']").show();
+	jQuery("select[name='Q_lang']").show();
+	
+	var languageidentifier = "${e://Field/Q_Language}";
+	if ( languageidentifier == "FR")
+	{
+	jQuery("#Q_lang ").find("[value=IT]").remove();
+	jQuery("#Q_lang ").find("[value=DE]").remove();
+	jQuery("#Q_lang ").find("[value=DE-A]").remove();
+	jQuery("#Q_lang ").find("[value=DE-G]").remove();
+	jQuery("#Q_lang ").find("[value=ES]").remove();
+	jQuery("#Q_lang ").find("[value=ES-ES]").remove();
+	}
+	if ( languageidentifier == "NL")
+	{
+	jQuery("#Q_lang ").find("[value=IT]").remove();
+	jQuery("#Q_lang ").find("[value=DE]").remove();
+	jQuery("#Q_lang ").find("[value=DE-A]").remove();
+	jQuery("#Q_lang ").find("[value=DE-G]").remove();
+	jQuery("#Q_lang ").find("[value=ES]").remove();	
+	jQuery("#Q_lang ").find("[value=ES-ES]").remove();
+	}
+	if ( languageidentifier == "EN")
+	{
+	jQuery("#Q_lang ").find("[value=IT]").remove();
+	jQuery("#Q_lang ").find("[value=DE]").remove();
+	jQuery("#Q_lang ").find("[value=DE-A]").remove();
+	jQuery("#Q_lang ").find("[value=DE-G]").remove();
+	jQuery("#Q_lang ").find("[value=ES]").remove();
+	jQuery("#Q_lang ").find("[value=ES-ES]").remove();
+	}
+});
+
+Qualtrics.SurveyEngine.addOnUnload(function()
+{
+	/*Place your JavaScript here to run when the page is unloaded*/
+
+});
