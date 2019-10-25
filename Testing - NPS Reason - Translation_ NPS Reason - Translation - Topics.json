@@ -1,0 +1,125 @@
+{
+  "version": "1.0",
+  "operations": [
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_13ea40425b0e31049a1c00ae",
+        "label": "Technician",
+        "query": "Technician or tech or serviceman or repairman or service rep or arrive or friendly or professional or knowledge or knowledgeable or repair or engineer or guy or on time or competent or experienced or efficient or workmanship or fitter or competent or competence"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_f0a939d5dd5d8d13b2e78ad0",
+        "label": "Responsiveness",
+        "query": "Responsiveness or response or responsive or prompt or months or weeks  or late  or time or delay or urgent or get back or follow-up or follow up or available or availability or speed or timeliness or wait"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_2102499f9748fe9b755ada15",
+        "label": "Communication",
+        "query": "Communication or communicate or answer or explain or inform or info or information or clear or email or notify or familiar or informative or confuse or insight or listen or tips or advice or feedback or pointed out or helpful or question"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_38fbdfd071e3e8b61897e5a2",
+        "label": "Scheduling",
+        "query": "Scheduling or scheduler or schedule or accommodate or arrange or book or booked or reschedule or flexible or appointment  or appt or plan or planning"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_0fe4bc13a81f0cd4c4f840e2",
+        "label": "Professional",
+        "query": "Professional or professionalism or unprofessional"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_3f8dc408bb28f7c9af53fc86",
+        "label": "Customer Service",
+        "query": "Customer Service or CS or CSR or CSC"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_806df15a13dab77724eb0a05",
+        "label": "Pricing",
+        "query": "Pricing or cost or expensive or cheap or $ or Preise or Kosten or teuer or billig"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_aa2b6d920114fe386d3e2d22",
+        "label": "Payment",
+        "query": "Payment or paid or po or P.O. or charged"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_202807f2ce47746ca91818a7",
+        "label": "Invoicing",
+        "query": "Invoicing or billing or bill or charge"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_b0ed798cd16fabb2c07b4954",
+        "label": "Installation",
+        "query": "Installation or install or commissioning"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_479ef3695ffe2ff68d8f914e",
+        "label": "Quoting",
+        "query": "Quoting or quote or bid"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_49e17ca0625c890c5d88c8ff",
+        "label": "Documentation",
+        "query": "Documentation or paperwork or certification or certs or records"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_01f5fb024f800d8456f0e40f",
+        "label": "Contracts",
+        "query": "Contracts or contract or agreement"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_228369ba1838199013f4b80e",
+        "label": "Sales",
+        "query": "Sales or salesman"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_3591dce7401a98c0d96760d9",
+        "label": "Employee Recognition",
+        "query": "Employee Recognition"
+      }
+    }
+  ]
+}
